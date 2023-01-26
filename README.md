@@ -1,0 +1,3 @@
+## [View Deployment](https://uditrajput03.github.io/GifSearcher/)
+
+### This web-app is created using GIPHY api and limited to 42 searches/hour and 1000 searches/day....
