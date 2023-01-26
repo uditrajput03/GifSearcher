@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gif Searcher</title>
+    <style>
+        input {
+            padding: 5px;
+            display: inline;
+        }
+        input[type=button]{
+            /* margin: 5px; */
+            width: 100px;
+            background-color: black;
+            color: whitesmoke;
+            border-radius: 20px;
+        }
+        .searchBar{
+            margin-top: 30px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .title {
+            padding: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 5px;
+            font-size: xx-large;
+            background-color: black;
+            color: white;
+        }
+        .select{
+            width: 100px;
+            text-align: center;
+            color: whitesmoke;
+            background-color: black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<header>
+    <div class="title">GIF SEARCHER</div>
+</header>
+<body>
+    <div class="searchBar">
+    <select class="select">
+<option value="gifs">Gifs</option>
+<option value="stickers">Stickers</option>
+    </select>
+    <input type="text" class="search input " size="60">
+    <input type="button" class="search btn" value="Search">
+    </div>
+<hr>
+    <div class="result">
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
