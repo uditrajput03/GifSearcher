@@ -2,7 +2,7 @@ let input=document.querySelector('.input');
 let searchBtn=document.querySelector('.btn');
 let result = document.querySelector('.result');
 let select = document.querySelector('.select');
-const api_key = secrets.API_KEY;
+const api_key = `nfg5GZLI9Ccsmdjh6paFc8afXPr3boXP`;
 searchBtn.addEventListener("click",search);
 
 input.addEventListener("keyup",(e) => {
